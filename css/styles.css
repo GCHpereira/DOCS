@@ -1,0 +1,422 @@
+:root {
+  --primary: #ab1cec;
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+
+#event-subscription {
+  background: linear-gradient(rgba(71, 71, 71, 0.8), rgba(117, 88, 115, 0.8)),
+    url("../img/tela\ de\ fundo.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.social-icons {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.social-icons a:not(:last-child) {
+  margin-right: 50px;
+}
+
+.social-icons:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#event-subscription i {
+  font-size: 50px;
+  color: #ab1cec;
+  margin-right: 10px;
+  align-items: flex-start;
+
+}
+
+#disclaimer h2,
+#disclaimer .event-date {
+  color: var(--primary);
+  text-shadow: 0.8px 0.8px 0.8px #fff, -0.8px 0.8px 0.8px #fff, 0.8px -0.8px 0.8px #fff, -0.8px -0.8px 0.8px #fff;
+}
+
+#disclaimer h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#disclaimer .about-event {
+  font-size: 2em;
+  max-width: 700px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#disclaimer .about-event span {
+  color: #ab1cec;
+  text-shadow: 0.8px 0.8px 0.8px #fff, -0.8px 0.8px 0.8px #fff, 0.8px -0.8px 0.8px #fff, -0.8px -0.8px 0.8px #fff;
+}
+
+#disclaimer p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+.btn {
+  background-color: #ab1cec;
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 25%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none
+}
+
+.btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#key-benefits h2 {
+  font-family: "Suez One", serif;
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+  font-size: 3em;
+
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.benefit {
+  flex-basis: 30%;
+  margin-bottom: 2em;
+}
+
+.benefit .benefit-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+.benefit-img p,
+span {
+  color: var(--primary);
+  text-shadow: 0.8px 0.8px 0.8px #000000, -0.8px 0.8px 0.8px #000000, 0.8px -0.8px 0.8px #000000, -0.8px -0.8px 0.8px #000000;
+}
+
+#benefit-1 {
+  background-image: url("../img/oq vc vai aprender.jpg");
+}
+
+#benefit-2 {
+  background-image: url("../img/oq vc vai aprender 2.jpg");
+}
+
+#benefit-3 {
+  background-image: url("../img/oq vc vai aprender 3.jpg");
+}
+
+#benefit-4 {
+  background-image: url("../img/oq vc vai aprender 4.jpg");
+}
+
+#benefit-5 {
+  background-image: url("../img/oq vc vai aprender 5.jpg");
+}
+
+#benefit-6 {
+  background-image: url("../img/oq vc vai aprender 6.jpg");
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detail img {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+.detail h3 {
+  margin-bottom: 1em;
+  font-size: 4em;
+  font-weight: 500;
+}
+
+#detail-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+#detail-3 .same {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#detail-3 .same h3 {
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+#detail-3 .same h3 span {
+  color: var(--primary);
+  text-shadow: 0.8px 0.8px 0.8px #000000, -0.8px 0.8px 0.8px #000000, 0.8px -0.8px 0.8px #000000, -0.8px -0.8px 0.8px #000000;
+}
+
+#detail-3 .same p {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 80%;
+  font-size: 2.7em;
+  text-decoration: underline;
+  text-decoration-color: var(--primary)
+}
+
+.detail-description {
+  width: 100%;
+  justify-content: center;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-description span {
+  color: var(--primary);
+  text-shadow: 0.8px 0.8px 0.8px #000000, -0.8px 0.8px 0.8px #000000, 0.8px -0.8px 0.8px #000000, -0.8px -0.8px 0.8px #000000;
+}
+
+#detail-4 .detail-description {
+  justify-self: flex-start;
+  font-size: 1.5em;
+  flex-direction: column;
+}
+
+#detail-4 .detail-description span {
+  color: #ab1cec;
+  font-size: 1.3em;
+  text-shadow: 0.8px 0.8px 0.8px #000000, -0.8px 0.8px 0.8px #000000, 0.8px -0.8px 0.8px #000000, -0.8px -0.8px 0.8px #000000;
+}
+
+.detail-description p {
+  font-size: 30px;
+
+}
+
+.detail-description h3 {
+  font-family: "Suez One", serif;
+}
+
+.detail img {
+  margin-right: 250px;
+}
+
+#cta {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/aprovação.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#cta h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#cta .btn {
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+
+#footer {
+  text-align: center;
+  color: var(--secondary);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+#footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+#footer span {
+  font-weight: bold;
+}
+
+
+@media (max-width: 450px) {
+
+  #event-subscription {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #event-subscription .btn {
+    width: 200px;
+    margin-bottom: 1em;
+  }
+
+  #disclaimer {
+    padding: 2em;
+  }
+
+  #disclaimer h2 {
+    margin-bottom: 0.5em;
+  }
+
+  #disclaimer p {
+    max-width: 30%;
+  }
+
+  #key-benefits h2{
+    text-align: center;
+  }
+
+
+  .benefits {
+ display: flex;
+ align-items: center;
+ margin-bottom: 20px;
+ text-align: center;
+  }
+
+  .benefit {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .detail {
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    gap: 0;
+  }
+
+  .detail img {
+    width: 100%;
+    margin: 2em 0;
+  }
+
+  #detail-1 img {
+    display: none;
+  }
+  #detail-1 h3{
+    text-align: center;
+  }
+
+  #detail-2 {
+    flex-direction: column-reverse;
+  }
+
+  #detail-2 .detail-description p {
+    font-size: 30px;
+  }
+
+  .detail-description {
+    padding: 0;
+    font-size: 13px;
+  }
+
+  .detail-description ul li {
+    font-size: 25px;
+  }
+
+  #detail-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  #detail-3 .same {
+    margin-left: 20px;
+  }
+
+  #detail-3 img {
+    max-width: 100%;
+  }
+
+  #detail-4 img {
+    order: 1;
+  }
+
+  #detail-4 .detail-description {
+    order: 2;
+  }
+
+  #detail-4 .detail-description h3 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #detail-4 .detail-description p {
+    font-size: 20px;
+    text-align: start;
+    margin-left: 10px;
+  }
+
+
+  #cta .btn {
+    width: 80%;
+  }
+}
